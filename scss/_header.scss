@@ -1,0 +1,40 @@
+header {
+    margin: 10px;
+    
+    img {
+        width: 80%;
+        max-height: 100px;
+        max-width: 330px;
+    }
+    
+    ul {
+        color: #003E52;
+        list-style-type: none;
+        padding: 0px;
+
+        li:hover {
+            color: #6cadc2;
+            cursor: pointer;
+        }
+    }
+
+    @media (min-width: 600px) {
+        display: flex;
+        justify-content: center;
+
+        nav {
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin: 10px;
+                font-size: 1.2em;
+            }
+        }
+    }
+}

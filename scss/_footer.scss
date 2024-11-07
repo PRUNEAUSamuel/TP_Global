@@ -1,0 +1,17 @@
+footer {
+    background-color: #003e52;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (min-width: 600px) {
+        height: 25vh;
+
+        h2 {
+            font-size: 2.2em;
+            font-weight: 400;
+        }
+    }
+}

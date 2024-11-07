@@ -1,0 +1,11 @@
+.fond_deroulant {
+    background-image: url("../images/header-image.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+
+    @media (min-width: 600px) {
+        height: 70vh
+    }
+}
+

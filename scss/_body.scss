@@ -1,0 +1,23 @@
+body {
+    font-family: "Roboto";
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    margin: 0px;
+    color: #003E52;
+
+    img {
+        width: 100%;
+    }
+
+    @media (min-width: 600px) {
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 0px;
+        }
+    }
+}
